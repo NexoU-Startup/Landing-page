@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NexoU - Marketplace Universitario</title>
+
+  <!-- Google Fonts: Poppins para títulos, Inter para texto -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome para los íconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Nuestro CSS -->
+  <link rel="stylesheet" href="assets/styles/styles.css">
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar">
+
+    <!-- Logo -->
+    <div class="logo">
+      <span class="logo-nombre">NexoU</span>
+      <span class="logo-sub">Marketplace universitario</span>
+    </div>
+
+    <!-- Botón hamburguesa para móvil -->
+    <button class="menu-hamburguesa" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Links de navegación -->
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#como-funciona">Cómo funciona</a></li>
+      <li><a href="#categorias">Categorías</a></li>
+      <li><a href="#testimonios">Testimonios</a></li>
+    </ul>
+
+    <!-- Botones de sesión -->
+    <div class="nav-botones" id="nav-botones">
+      <button class="btn-iniciar">Iniciar Sesión</button>
+      <button class="btn-registro">Registro</button>
+    </div>
+
+  </nav>
+
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="inicio">
+
+    <!-- Texto del lado izquierdo -->
+    <div class="hero-texto">
+      <h1>Conecta con estudiantes que saben lo que necesitas</h1>
+      <p>Encuentra todo lo que estés buscando en asesorías, diseño, edición y más dentro de tu universidad</p>
+      <div class="hero-botones">
+        <button class="btn-buscar">Buscar servicio</button>
+        <button class="btn-ofrecer">Ofrecer mis habilidades</button>
+      </div>
+    </div>
+
+    <!-- Ilustración del lado derecho -->
+    <div class="hero-imagen">
+      <!-- El blob es el círculo morado de fondo -->
+      <div class="hero-blob"></div>
+      <!-- Reemplaza hero-ilustracion.png con tu imagen exportada de Figma -->
+      <img src="assets/images/hero-ilustracion.png" alt="Estudiantes universitarios" class="hero-img">
+    </div>
+
+  </section>
+
+
+  <!-- ===================== CÓMO FUNCIONA ===================== -->
+  <section class="como-funciona" id="como-funciona">
+
+    <h2>¿Cómo funciona NexoU?</h2>
+
+    <div class="pasos">
+
+      <!-- Paso 1 -->
+      <div class="paso">
+        <h3 class="paso-titulo">Busca</h3>
+        <div class="paso-card">
+          <!-- Reemplaza con tu ícono 3D de Figma si quieres -->
+          <div class="paso-icono azul">
+            <i class="fas fa-magnifying-glass"></i>
+          </div>
+          <p>Encuentra servicios por categoría o búsqueda dentro de tu universidad</p>
+          <button class="btn-mas-info">Más info</button>
+        </div>
+      </div>
+
+      <!-- Paso 2 -->
+      <div class="paso">
+        <h3 class="paso-titulo">Contacta</h3>
+        <div class="paso-card">
+          <div class="paso-icono amarillo">
+            <i class="fas fa-comments"></i>
+          </div>
+          <p>Revisa el perfil, portafolio y reseñas del oferente antes de escribirle</p>
+          <button class="btn-mas-info">Más info</button>
+        </div>
+      </div>
+
+      <!-- Paso 3 -->
+      <div class="paso">
+        <h3 class="paso-titulo">Recibe</h3>
+        <div class="paso-card">
+          <div class="paso-icono verde">
+            <i class="fas fa-circle-check"></i>
+          </div>
+          <p>Coordina los detalles y recibe el servicio dentro de la plataforma</p>
+          <button class="btn-mas-info">Más info</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ===================== CATEGORÍAS ===================== -->
+  <section class="categorias" id="categorias">
+
+    <h2>Servicios disponibles</h2>
+
+    <div class="categorias-grid">
+
+      <div class="categoria-card">
+        <div class="cat-icono morado">
+          <i class="fas fa-book-open"></i>
+        </div>
+        <div class="cat-texto">
+          <h3>Académico</h3>
+          <p>Asesorías, tutorías y apoyo en cursos universitarios.</p>
+        </div>
+      </div>
+
+      <div class="categoria-card">
+        <div class="cat-icono azul">
+          <i class="fas fa-pen-ruler"></i>
+        </div>
+        <div class="cat-texto">
+          <h3>Diseño</h3>
+          <p>Gráfico, UX/UI, ilustración y branding digital.</p>
+        </div>
+      </div>
+
+      <div class="categoria-card">
+        <div class="cat-icono rosa">
+          <i class="fas fa-film"></i>
+        </div>
+        <div class="cat-texto">
+          <h3>Edición</h3>
+          <p>Video, audio, fotografía y comunicación digital.</p>
+        </div>
+      </div>
+
+      <div class="categoria-card">
+        <div class="cat-icono naranja">
+          <i class="fas fa-language"></i>
+        </div>
+        <div class="cat-texto">
+          <h3>Traducción</h3>
+          <p>Inglés, portugués, francés y más idiomas.</p>
+        </div>
+      </div>
+
+      <div class="categoria-card">
+        <div class="cat-icono azul">
+          <i class="fas fa-laptop-code"></i>
+        </div>
+        <div class="cat-texto">
+          <h3>Programación</h3>
+          <p>Web, mobile, scripts y proyectos universitarios.</p>
+        </div>
+      </div>
+
+      <div class="categoria-card">
+        <div class="cat-icono morado">
+          <i class="fas fa-bullhorn"></i>
+        </div>
+        <div class="cat-texto">
+          <h3>Marketing</h3>
+          <p>Redes sociales, contenido y estrategia digital.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ===================== TESTIMONIOS ===================== -->
+  <section class="testimonios" id="testimonios">
+
+    <h2>Lo que dicen nuestros usuarios</h2>
+
+    <div class="testimonios-fila">
+
+      <!-- Testimonio 1 -->
+      <div class="testimonio-card">
+        <div class="testimonio-cabecera">
+          <!-- Reemplaza con foto real en assets/images/ -->
+          <div class="testimonio-foto morado">
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="testimonio-nombre">
+            <h4>Martín Alegre</h4>
+            <span>ISIL</span>
+          </div>
+        </div>
+        <p>"Encontré clientes para mis servicios de edición sin depender del boca a boca. NexoU me dio visibilidad real dentro de mi comunidad"</p>
+        <div class="estrellas">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+      </div>
+
+      <!-- Testimonio 2 -->
+      <div class="testimonio-card">
+        <div class="testimonio-cabecera">
+          <div class="testimonio-foto azul">
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="testimonio-nombre">
+            <h4>Mariana Rodríguez</h4>
+            <span>UPC</span>
+          </div>
+        </div>
+        <p>"Me ayudó a encontrar a alguien de mi misma universidad que ya había llevado el curso. Eso marcó la diferencia"</p>
+        <div class="estrellas">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+      </div>
+
+      <!-- Testimonio 3 -->
+      <div class="testimonio-card">
+        <div class="testimonio-cabecera">
+          <div class="testimonio-foto verde">
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="testimonio-nombre">
+            <h4>Alex Julca</h4>
+            <span>UPC</span>
+          </div>
+        </div>
+        <p>"Antes perdía tiempo buscando en grupos de Facebook. NexoU encontró el apoyo perfecto para mi curso en minutos"</p>
+        <div class="estrellas">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ===================== CTA FINAL ===================== -->
+  <section class="cta-final">
+
+    <div class="cta-texto">
+      <h2>¿Listo para conectar con tu comunidad universitaria?</h2>
+      <p>Únete a NexoU y empieza a buscar o ofrecer servicios hoy</p>
+    </div>
+
+    <div class="cta-derecha">
+      <button class="btn-unete">Únete gratis</button>
+      <!-- Reemplaza con tu imagen de mano de Figma -->
+      <img src="assets/images/mano.png" alt="" class="cta-mano">
+    </div>
+
+  </section>
+
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+
+    <div class="footer-contenido">
+
+      <!-- Columna 1: Logo y redes -->
+      <div class="footer-logo-area">
+        <div class="footer-logo">
+          <span class="footer-logo-nombre">NexoU</span>
+          <span class="footer-logo-sub">Marketplace universitario</span>
+        </div>
+        <p class="footer-descripcion">La plataforma que conecta estudiantes</p>
+        <div class="footer-redes">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-tiktok"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-x-twitter"></i></a>
+        </div>
+      </div>
+
+      <!-- Columna 2: Plataforma -->
+      <div class="footer-columna">
+        <h4>Plataforma</h4>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#como-funciona">Cómo funciona</a></li>
+          <li><a href="#categorias">Categorías</a></li>
+          <li><a href="#testimonios">Testimonios</a></li>
+        </ul>
+      </div>
+
+      <!-- Columna 3: Categorías -->
+      <div class="footer-columna">
+        <h4>Categorías</h4>
+        <ul>
+          <li><a href="#">Académico</a></li>
+          <li><a href="#">Diseño</a></li>
+          <li><a href="#">Edición</a></li>
+          <li><a href="#">Traducción</a></li>
+          <li><a href="#">Programación</a></li>
+        </ul>
+      </div>
+
+      <!-- Columna 4: Contacto -->
+      <div class="footer-columna">
+        <h4>Contacto</h4>
+        <ul>
+          <li><a href="mailto:hola@nexou.pe">hola@nexou.pe</a></li>
+          <li><span>Lima, Perú</span></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Línea de copyright -->
+    <div class="footer-copyright">
+      <p>© 2026 NexoU. Todos los derechos reservados</p>
+    </div>
+
+  </footer>
+
+
+  <!-- jQuery vía CDN -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+  <!-- Nuestro JavaScript -->
+  <script src="assets/scripts/main.js"></script>
+
+</body>
+</html>
