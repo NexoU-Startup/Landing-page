@@ -1,0 +1,15 @@
+# Dependencias de Node
+node_modules/
+
+# Archivos de macOS
+.DS_Store
+
+# Configuración de WebStorm / JetBrains
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Variables de entorno
+.env
