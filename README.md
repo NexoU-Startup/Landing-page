@@ -8,11 +8,14 @@ NexoU es un marketplace universitario que conecta a estudiantes que necesitan se
 
 ## Autores
 
-| Nombre | Código | Universidad |
-|--------|--------|-------------|
-| _(por completar)_ | _(por completar)_ | _(por completar)_ |
-| _(por completar)_ | _(por completar)_ | _(por completar)_ |
-| _(por completar)_ | _(por completar)_ | _(por completar)_ |
+| Nombre | Código |
+|--------|--------|
+| Martinez Gaona, Pablo Afranio | U202120011 |
+| Alfaro Auris, Rodrigo Sebastian | U202424566 |
+| Navarro Chang, Alicia Avril | U20231D637 |
+| Rodríguez Arana, Christopher Alfredo | U20231H146 |
+| Rodriguez Gonzáles, Leonel German | U202316466 |
+| Vasquez Laos, Sebastian Andrews | U20221B734 |
 
 ---
 
